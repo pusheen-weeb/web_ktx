@@ -1,0 +1,22 @@
+/* Base styles for the navbar */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+  }
+  
+  .navbar-item {
+    color: #fff; /* Default text color */
+    padding: 10px 15px; /* Padding to create a box effect */
+    margin: 0 10px; /* Spacing between items */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+  }
+  
+  .navbar-item:hover {
+    background-color: blue; /* Background color change on hover */
+  }
+  
